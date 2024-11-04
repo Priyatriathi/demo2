@@ -5,9 +5,9 @@ int main()
     printf("enter a and b");
     scanf("%d %d",&a,&b);
     printf("values of before swap a=%d and b=%d\n ",a,b);
-    a=a+b;
-    b=a-b;
-    a=a-b;
+    int t=a;
+    a=b;
+    b=t;
     printf("values of after swap a=%d and b=%d",a,b);
       return 0;
 }
